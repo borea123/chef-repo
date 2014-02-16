@@ -9,3 +9,6 @@ chef_server_url          "https://api.opscode.com/organizations/vghilas_repo"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_copyright       "HOME PC"
+cookbook_license         "apachev2"
+cookbook_email           "borea123@mail.ru"
